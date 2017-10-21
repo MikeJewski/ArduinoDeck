@@ -1,3 +1,5 @@
+# Arduino Instructions
+
 In order for this program to run on the ArduinoMEGA, extra libraries are needed to be downloaded, and present libraries are required to be edited in order for the touchscreen to work with the MEGA.
 
 It is recommended that any file that you are replacing is backed up, in case you need to revert back to using an ArduinoUNO.
