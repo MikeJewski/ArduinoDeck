@@ -64,3 +64,11 @@ Using a relatively blank layout:
 **Load Layout**: Will allow you to load a previously saved layout file found in the Layouts folder.   
 **Upload Layout**: Will save and load the current layout to the Arduino, but this will not start the program.  
 **Start/Stop Deck**: This will start a separate program which connects your computer to the ArduinoDeck to allow the functions to run. Closing the ArduinoDeck program will also Stop the connection.  
+
+## Current Issues
+
+Starting and stopping the stream: currently does not work, but with the new update I will add this functionality once I get the time.
+
+Initial state of toggle buttons: This does not currently work, this will be updated along with the stream functionality
+
+If there are any requests for functionalities please submit an issue and I will try to add it in as time permits
