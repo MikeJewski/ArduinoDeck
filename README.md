@@ -11,6 +11,8 @@ To make the icons usable, the filename must be 8 characters or less, with no use
 
 Ex. Mic0.bmp or Mic1.bmp
 
+**In order for the images to be loaded, the file names in the icons folder and the SD card MUST be the exact same**
+
 ## Arduino Instructions
 
 Please install the Arduino IDE from the official website: https://www.arduino.cc/en/Main/Software
