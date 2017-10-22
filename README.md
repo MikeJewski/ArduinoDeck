@@ -1,6 +1,11 @@
 # ArduinoDeck
 Alternative method of controlling system functions using a touchscreen shield on an arduino. Mostly targeted towards streamers looking for a method to control OBS while streaming.
 
+## Hardware
+
+1. Arduino MEGA
+2. TFTLCD touchscreen (Currently has only been tested on 2.8" screens similar to: https://www.amazon.com/Elegoo-Inches-Screen-Technical-Arduino/dp/B01EUVJYME/ref=sr_1_1_sspa?ie=UTF8&qid=1508638064&sr=8-1-spons&keywords=elegoo+tft+touch&psc=1 )
+
 ## Icons
 
 Icons used for the ArduinoDeck as well as the main software. The icons originally used for this software are free to download and can be found at https://twitchtemple.com/product/elgato-stream-deck-key-icons-free/ . These were the best free icons that I could find, they did a great job on these.
