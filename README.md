@@ -11,6 +11,22 @@ To make the icons usable, the filename must be 8 characters or less, with no use
 
 Ex. Mic0.bmp or Mic1.bmp
 
+## Arduino Instructions
+
+Please install the Arduino IDE from the official website: https://www.arduino.cc/en/Main/Software
+
+In order for this program to run on the ArduinoMEGA, extra libraries are needed to be downloaded, and present libraries are required to be edited in order for the touchscreen to work with the MEGA.
+
+It is recommended that any file that you are replacing is backed up, in case you need to revert back to using an ArduinoUNO.
+
+Adafruit_GFX, Adafruit_TFTLCD, and TouchScreen can all be placed in the Arduino library folder located in ~/Documents/Arduino/libraries/
+
+SD needs to replace the folder located in ~\Program Files (x86)\Arduino\libraries\ (or where ever the main Arduino folder is located)
+
+SPI needs to replace the folder located in ~\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\
+
+Finally, as a precaution string.h replaces the file located at ~\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\string.h
+
 ## Setup File
 
 Included is a setup file, which contains vital information from each user of the software. This must not be edited beyond entering in the information required, or else the program will fail to run.  
