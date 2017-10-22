@@ -25,6 +25,7 @@ obspswd: Password for the OBS websocket plugin. If no password was used (I HIGHL
 Install the OBS plugin from https://obsproject.com/forum/resources/obs-websocket-remote-control-of-obs-studio-made-easy.466/. I have not added the new features that were made available in September, I will be doing this when I get the time.
 
 # Using the software
+Make sure not to move anything out of any of the folders/change names of files. To run the program launch ArduinoDeck.exe
 
 Using a relatively blank layout:
 
