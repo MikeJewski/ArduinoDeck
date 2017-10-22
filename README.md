@@ -19,7 +19,9 @@ Included is a setup file, which contains vital information from each user of the
 **CurrentLayout**: Name of the layout to use. These can be found in the layouts folder (ex. "Blank.json")  
 **TwitchChatKey**: Oauth key for the user. This allows the ArduinoDeck to send messages through Twitch chat, as well as get uptime information and viewer count. To get this value, you can use https://twitchapps.com/tmi/ to get your oauth token. Only paste the value after "oauth:" (ex. if the token is "ouath:0123456789abcdefghijABCDEFGHIJ", change the setup value to "0123456789abcdefghijABCDEFGHIJ"  
 **ChannelName**: Lowercase name of your Channel. This value will determine what information is being presented with regards to the uptime of the channel, as well as the viewers, and what channel messages will be posted to. This will only work with the channel associated with the oauth token produced above.  
-**obspswd**: Password for the OBS websocket plugin. If no password was used (I HIGHLY recommend doing this), the default is "admin"  
+**obspswd**: Password for the OBS websocket plugin. If no password was used (I HIGHLY recommend doing this), the default is "admin"
+**port**: COM port that the Arduino is connected to. This value can be found by looking in the bottom right corner of the Arduino IDE. (ex. port = "COM8")
+**command**: Location of the initial Arduino install location, this is used to update the layout of the Arduino. (ex. command = "C:/Program Files (x86)/Arduino/arduino"). This should only be a matter of changing the C: location to whatever your file location, or the Program Files (x86) if you had chosen to install the Arduino software into a different location.
 
 # OBS websocket plugin
 
