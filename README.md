@@ -26,6 +26,19 @@ Install the OBS plugin from https://obsproject.com/forum/resources/obs-websocket
 
 # Using the software
 
-Assuming you are starting from the 
+Using a relatively blank layout:
 
 ![Layout](https://github.com/MikeJewski/ArduinoDeck/edit/master/ArduinoDeckLayout.png?raw=true)
+
+1. Highlighted button: This is the current active button (Outlined in light grey). Any actions done in the right hand panel will be applied to this button.
+2. Unhighlighted button: This is what the rest of the buttons will look like. If clicked on, these buttons will become the active button. This they are clicked and held, the button is able to be moved to a new location.
+3. Disabled button: These buttons are disabled and unable to be clicked on.
+4. Button Panel: Displays the button layout as it will be shown on the ArduinoDeck.
+5. Add button: Pressing this button will add a new button until there is no space left. To remove a button, click and hold on a button, and a garbage icon will appear on the bottom of the Button Panel. Drag the button to the garbage and release to delete it.
+6. Action Panel: Actions to apply to a button. Click on the arrow on the right side, or double click the bar to expand it. Clicking on an action will overwrite the current action applied to the Active Button (1). 
+7. General Actions: These set of buttons govern the main use of the ArduinoDeck. 
+
+Save Layout/Save Layout As: Will save the current layout to the active json file listed on the setup file, or make a new file respectively. 
+Load Layout: Will allow you to load a previously saved layout file found in the Layouts folder. 
+Upload Layout: Will save and load the current layout to the Arduino, but this will not start the program. 
+Start/Stop Deck: This will start a separate program which connects your computer to the ArduinoDeck to allow the functions to run. Closing the ArduinoDeck program will also Stop the connection. 
