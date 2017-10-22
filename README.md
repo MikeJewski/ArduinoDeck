@@ -1,7 +1,7 @@
 # ArduinoDeck
 Alternative method of controlling system functions using a touchscreen shield on an arduino. Mostly targeted towards streamers looking for a method to control OBS while streaming.
 
-# Icons
+## Icons
 
 Icons used for the ArduinoDeck as well as the main software. The icons originally used for this software are free to download and can be found at https://twitchtemple.com/product/elgato-stream-deck-key-icons-free/ . These were the best free icons that I could find, they did a great job on these.
 
@@ -11,7 +11,7 @@ To make the icons usable, the filename must be 8 characters or less, with no use
 
 Ex. Mic0.bmp or Mic1.bmp
 
-# Setup File
+## Setup File
 
 Included is a setup file, which contains vital information from each user of the software. This must not be edited beyond entering in the information required, or else the program will fail to run.  
 
@@ -23,11 +23,11 @@ Included is a setup file, which contains vital information from each user of the
 **port**: COM port that the Arduino is connected to. This value can be found by looking in the bottom right corner of the Arduino IDE. (ex. port = "COM8")  
 **command**: Location of the initial Arduino install location, this is used to update the layout of the Arduino. (ex. command = "C:/Program Files (x86)/Arduino/arduino"). This should only be a matter of changing the C: location to whatever your file location, or the Program Files (x86) if you had chosen to install the Arduino software into a different location.
 
-# OBS websocket plugin
+## OBS websocket plugin
 
 Install the OBS plugin from https://obsproject.com/forum/resources/obs-websocket-remote-control-of-obs-studio-made-easy.466/. I have not added the new features that were made available in September, I will be doing this when I get the time.
 
-# Using the software
+## Using the software
 Make sure not to move anything out of any of the folders/change names of files. To run the program launch ArduinoDeck.exe
 
 Using a relatively blank layout:
