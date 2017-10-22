@@ -13,15 +13,14 @@ Ex. Mic0.bmp or Mic1.bmp
 
 # Setup File
 
-Included is a setup file, which contains vital information from each user of the software. This must not be edited beyond entering in the information required, or else the program will fail to run.
+Included is a setup file, which contains vital information from each user of the software. This must not be edited beyond entering in the information required, or else the program will fail to run.  
 
-CurrentLayout: Name of the layout to use. These can be found in the layouts folder (ex. "Blank.json")
 
-TwitchChatKey: Oauth key for the user. This allows the ArduinoDeck to send messages through Twitch chat, as well as get uptime information and viewer count. To get this value, you can use https://twitchapps.com/tmi/ to get your oauth token. Only paste the value after "oauth:" (ex. if the token is "ouath:0123456789abcdefghijABCDEFGHIJ", change the setup value to "0123456789abcdefghijABCDEFGHIJ"
+CurrentLayout: Name of the layout to use. These can be found in the layouts folder (ex. "Blank.json")  
+TwitchChatKey: Oauth key for the user. This allows the ArduinoDeck to send messages through Twitch chat, as well as get uptime information and viewer count. To get this value, you can use https://twitchapps.com/tmi/ to get your oauth token. Only paste the value after "oauth:" (ex. if the token is "ouath:0123456789abcdefghijABCDEFGHIJ", change the setup value to "0123456789abcdefghijABCDEFGHIJ"  
+ChannelName: Lowercase name of your Channel. This value will determine what information is being presented with regards to the uptime of the channel, as well as the viewers, and what channel messages will be posted to. This will only work with the channel associated with the oauth token produced above.  
 
-ChannelName: Lowercase name of your Channel. This value will determine what information is being presented with regards to the uptime of the channel, as well as the viewers, and what channel messages will be posted to. This will only work with the channel associated with the oauth token produced above.
-
-obspswd: Password for the OBS websocket plugin. If no password was used (I HIGHLY recommend doing this), the default is "admin"
+obspswd: Password for the OBS websocket plugin. If no password was used (I HIGHLY recommend doing this), the default is "admin"  
 
 # OBS websocket plugin
 
