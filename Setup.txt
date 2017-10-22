@@ -1,0 +1,4 @@
+CurrentLayout = "Blank.json"
+TwitchChatKey = ""
+ChannelName = ""
+obspswd = ""
