@@ -16,11 +16,10 @@ Ex. Mic0.bmp or Mic1.bmp
 Included is a setup file, which contains vital information from each user of the software. This must not be edited beyond entering in the information required, or else the program will fail to run.  
 
 
-CurrentLayout: Name of the layout to use. These can be found in the layouts folder (ex. "Blank.json")  
-TwitchChatKey: Oauth key for the user. This allows the ArduinoDeck to send messages through Twitch chat, as well as get uptime information and viewer count. To get this value, you can use https://twitchapps.com/tmi/ to get your oauth token. Only paste the value after "oauth:" (ex. if the token is "ouath:0123456789abcdefghijABCDEFGHIJ", change the setup value to "0123456789abcdefghijABCDEFGHIJ"  
-ChannelName: Lowercase name of your Channel. This value will determine what information is being presented with regards to the uptime of the channel, as well as the viewers, and what channel messages will be posted to. This will only work with the channel associated with the oauth token produced above.  
-
-obspswd: Password for the OBS websocket plugin. If no password was used (I HIGHLY recommend doing this), the default is "admin"  
+**CurrentLayout**: Name of the layout to use. These can be found in the layouts folder (ex. "Blank.json")  
+**TwitchChatKey**: Oauth key for the user. This allows the ArduinoDeck to send messages through Twitch chat, as well as get uptime information and viewer count. To get this value, you can use https://twitchapps.com/tmi/ to get your oauth token. Only paste the value after "oauth:" (ex. if the token is "ouath:0123456789abcdefghijABCDEFGHIJ", change the setup value to "0123456789abcdefghijABCDEFGHIJ"  
+**ChannelName**: Lowercase name of your Channel. This value will determine what information is being presented with regards to the uptime of the channel, as well as the viewers, and what channel messages will be posted to. This will only work with the channel associated with the oauth token produced above.  
+**obspswd**: Password for the OBS websocket plugin. If no password was used (I HIGHLY recommend doing this), the default is "admin"  
 
 # OBS websocket plugin
 
@@ -41,7 +40,7 @@ Using a relatively blank layout:
 6. Action Panel: Actions to apply to a button. Click on the arrow on the right side, or double click the bar to expand it. Clicking on an action will overwrite the current action applied to the Active Button (1). 
 7. General Actions: These set of buttons govern the main use of the ArduinoDeck. 
 
-Save Layout/Save Layout As: Will save the current layout to the active json file listed on the setup file, or make a new file respectively. 
-Load Layout: Will allow you to load a previously saved layout file found in the Layouts folder. 
-Upload Layout: Will save and load the current layout to the Arduino, but this will not start the program. 
-Start/Stop Deck: This will start a separate program which connects your computer to the ArduinoDeck to allow the functions to run. Closing the ArduinoDeck program will also Stop the connection. 
+**Save Layout/Save Layout As**: Will save the current layout to the active json file listed on the setup file, or make a new file respectively.  
+**Load Layout**: Will allow you to load a previously saved layout file found in the Layouts folder.   
+**Upload Layout**: Will save and load the current layout to the Arduino, but this will not start the program.  
+**Start/Stop Deck**: This will start a separate program which connects your computer to the ArduinoDeck to allow the functions to run. Closing the ArduinoDeck program will also Stop the connection.  
