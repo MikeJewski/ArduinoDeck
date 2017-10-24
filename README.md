@@ -1,6 +1,8 @@
 # ArduinoDeck
 Alternative method of controlling system functions using a touchscreen shield on an arduino. Mostly targeted towards streamers looking for a method to control OBS while streaming.
 
+![Arduino Deck](https://github.com/MikeJewski/ArduinoDeck/edit/master/ArduinoDeck.jpg?raw=true)
+
 ## Hardware
 
 1. Arduino MEGA
