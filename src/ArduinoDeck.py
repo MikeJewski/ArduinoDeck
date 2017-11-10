@@ -122,7 +122,7 @@ class MainPanel(wx.Panel):
 
 		self.padding = 70
 		self.edge = 35
-		bmp = wx.Bitmap(self.ImageDir+"Discord.bmp", wx.BITMAP_TYPE_ANY)
+		bmp = wx.Bitmap(self.ImageDir+"Disabled.bmp", wx.BITMAP_TYPE_ANY)
 
 		self.Button1 = buttons.GenBitmapToggleButton(self.ButtonPanel,bitmap=bmp,size=(bmp.GetWidth()+10, bmp.GetHeight()+10),style=wx.NO_BORDER,name="Button1")
 
