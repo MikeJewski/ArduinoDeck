@@ -15,7 +15,7 @@ def SendMessage(msg,check):
 	HOST = "irc.chat.twitch.tv"
 	PORT = 6667                        
 	NICK = ChannelName
-	PASS = TwitchChatKey
+	PASS = "oauth:" + TwitchChatKey
 	CHAN = "#" + ChannelName
 
 	public = socket.create_connection((HOST, PORT))
