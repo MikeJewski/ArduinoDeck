@@ -706,7 +706,7 @@ class MainPanel(wx.Panel):
 		SceneText = wx.StaticText(self.OptionPanel,-1,pos=(8,8),label="Choose Scene:")
 		SceneText.SetForegroundColour("White")
 
-		SourceText = wx.StaticText(self.OptionPanel,-1,pos=(8,56),label="Choose Scene:")
+		SourceText = wx.StaticText(self.OptionPanel,-1,pos=(8,56),label="Choose Source:")
 		SourceText.SetForegroundColour("White")
 
 		self.Scene = wx.Choice(self.OptionPanel, -1, pos=(8,28), choices=self.SceneList,name="Scene")
