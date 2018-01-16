@@ -1,12 +1,35 @@
 # ArduinoDeck
 Alternative method of controlling system functions using a touchscreen shield on an arduino. Mostly targeted towards streamers looking for a method to control OBS while streaming.
 
-![Arduino Deck](https://github.com/MikeJewski/ArduinoDeck/edit/master/ArduinoDeck.jpg?raw=true)
+![Arduino Deck](https://github.com/MikeJewski/ArduinoDeck/blob/master/ArduinoDeck.jpg?raw=true)
 
 ## Hardware
 
 1. Arduino MEGA
 2. TFTLCD touchscreen (Currently has only been tested on 2.8" screens similar to: https://www.amazon.com/Elegoo-Inches-Screen-Technical-Arduino/dp/B01EUVJYME/ref=sr_1_1_sspa?ie=UTF8&qid=1508638064&sr=8-1-spons&keywords=elegoo+tft+touch&psc=1 )
+
+##Setup Instructions
+
+1. Download and install the Arduino IDE from the official website: https://www.arduino.cc/en/Main/Software
+
+2. Place Adafruit_GFX, Adafruit_TFTLCD, and TouchScreen in the Arduino library folder located in ~/Documents/Arduino/libraries/
+
+3. Open up the Arduino installation folder (default is ~\Program Files (x86)\Arduino\libraries\) and replace the folder SD (or where ever the main Arduino folder is located) with the folder with the same name located in ArduinoDeck\src\ArduinoDeck\libs.
+
+4. Replace the SPI folder, the default is located at ~\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\ with the one inside ArduinoDeck\src\ArduinoDeck\libs
+
+5. As a precaution replace string.h located at ~\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\string.h with the one in ArduinoDeck\src\ArduinoDeck\libs
+
+6. Fill in the [setup file](https://github.com/MikeJewski/ArduinoDeck/blob/master/README.md#setup-file)
+
+7. Install the OBS Websocket Plugin
+
+8. Convert any icons that you want to use on your layouts, using the tool provides and copy the BMP files to the root of your SD card.
+
+9. Compile the code in the Arduino IDE and let it run on to the Arduino board.
+
+10. Setup your layouts, upload them and press start!
+
 
 ## Icons
 
@@ -20,21 +43,6 @@ Ex. Mic0.bmp or Mic1.bmp
 
 **In order for the images to be loaded, the file names in the icons folder and the SD card MUST be the exact same**
 
-## Arduino Instructions
-
-Please install the Arduino IDE from the official website: https://www.arduino.cc/en/Main/Software
-
-In order for this program to run on the ArduinoMEGA, extra libraries are needed to be downloaded, and present libraries are required to be edited in order for the touchscreen to work with the MEGA.
-
-It is recommended that any file that you are replacing is backed up, in case you need to revert back to using an ArduinoUNO.
-
-Adafruit_GFX, Adafruit_TFTLCD, and TouchScreen can all be placed in the Arduino library folder located in ~/Documents/Arduino/libraries/
-
-SD needs to replace the folder located in ~\Program Files (x86)\Arduino\libraries\ (or where ever the main Arduino folder is located)
-
-SPI needs to replace the folder located in ~\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\
-
-Finally, as a precaution string.h replaces the file located at ~\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\string.h
 
 ## Setup File
 
@@ -57,7 +65,7 @@ Make sure not to move anything out of any of the folders/change names of files. 
 
 Using a relatively blank layout:
 
-![Layout](https://github.com/MikeJewski/ArduinoDeck/edit/master/ArduinoDeckLayout.png?raw=true)
+![Layout](https://github.com/MikeJewski/ArduinoDeck/blob/master/ArduinoDeckLayout.png?raw=true)
 
 1. Highlighted button: This is the current active button (Outlined in light grey). Any actions done in the right hand panel will be applied to this button.
 2. Unhighlighted button: This is what the rest of the buttons will look like. If clicked on, these buttons will become the active button. This they are clicked and held, the button is able to be moved to a new location.
