@@ -3,6 +3,14 @@ Alternative method of controlling system functions using a touchscreen shield on
 
 ![Arduino Deck](https://github.com/MikeJewski/ArduinoDeck/blob/master/ArduinoDeck.jpg?raw=true)
 
+## Contact
+
+We have a discord if you have any question, need help with setup, or want to talk about a possible feature request: https://discord.gg/4FKdNYX
+
+## Progress
+
+A Trello board has been setup to monitor current features, as well as issues, feature requests, and current progress on the next version: https://trello.com/b/WWK25AX0/arduino-deck
+
 ## Hardware
 
 1. Arduino MEGA
