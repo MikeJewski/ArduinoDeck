@@ -94,8 +94,6 @@ Starting and stopping the stream: currently does not work, but with the new upda
 
 Initial state of toggle buttons: This does not currently work, this will be updated along with the stream functionality
 
-If there are any requests for functionalities please submit an issue and I will try to add it in as time permits
-
 ## Contributions
 
 Icon created by Dramcus: https://www.artstation.com/dramcus
