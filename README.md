@@ -102,4 +102,4 @@ Icon created by Dramcus: https://www.artstation.com/dramcus
 
 If you want to support me by buying me a coffee, I would be forever grateful!
 
-[![Donate](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0 | width=36)](https://ko-fi.com/P5P37W6K)
+[<img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0'>](https://ko-fi.com/P5P37W6K)
