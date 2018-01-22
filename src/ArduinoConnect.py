@@ -55,16 +55,22 @@ try:
 			info = json.loads(urlopen(site).read())
 
 			#Number of viewers to print
-			if info["_total"] != 0: 
-				viewers = info["streams"][0]["viewers"]
-				a = info['streams'][0]['created_at']
-				b = datetime.datetime.now()+datetime.timedelta(hours=4)
-				c = datetime.datetime.strptime(a, "%Y-%m-%dT%H:%M:%SZ")
-				d = b-c
-				e = (datetime.datetime.min+d).time().strftime('%H:%M')
-			else:
+			#Hotfix to deal with people who don't want to connect to Twitch
+			try:
+				if info["_total"] != 0: 
+					viewers = info["streams"][0]["viewers"]
+					a = info['streams'][0]['created_at']
+					b = datetime.datetime.now()+datetime.timedelta(hours=4)
+					c = datetime.datetime.strptime(a, "%Y-%m-%dT%H:%M:%SZ")
+					d = b-c
+					e = (datetime.datetime.min+d).time().strftime('%H:%M')
+				else:
+					viewers = "N/A"
+					e = "N/A"
+			except:
 				viewers = "N/A"
 				e = "N/A"
+				
 			ser.write(str(curr_time)+','+str(viewers)+','+str(e))
 		time.sleep(0.2)
 
