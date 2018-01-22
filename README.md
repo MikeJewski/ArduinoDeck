@@ -97,3 +97,9 @@ Initial state of toggle buttons: This does not currently work, this will be upda
 ## Contributions
 
 Icon created by Dramcus: https://www.artstation.com/dramcus
+
+## Donations
+
+If you want to support me by buying me a coffee, I would be forever grateful!
+
+[![Donate](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0)](https://ko-fi.com/P5P37W6K)
