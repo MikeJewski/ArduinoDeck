@@ -24,6 +24,9 @@ A Trello board has been setup to monitor current features, as well as issues, fe
 
 3. Open up the Arduino installation folder (default is ~\Program Files (x86)\Arduino\libraries\) and replace the folder SD (or where ever the main Arduino folder is located) with the folder with the same name located in ArduinoDeck\src\ArduinoDeck\libs.
 
+**Important**
+Make sure to either delete the original SD folder, or to go in and delete the *src* folder inside in order for the program to compile.
+
 4. Replace the SPI folder, the default is located at ~\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\ with the one inside ArduinoDeck\src\ArduinoDeck\libs
 
 5. As a precaution replace string.h located at ~\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\string.h with the one in ArduinoDeck\src\ArduinoDeck\libs
