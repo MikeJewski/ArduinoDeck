@@ -3,7 +3,6 @@ import win32api
 import serial
 import datetime
 import time
-from urllib import urlopen
 import json
 from Actions import *
 import os
@@ -41,8 +40,8 @@ try:
 			if(StreamDeck.isdigit()):
 				Action = States["Button"+StreamDeck]["Action"]
 				exec(Action["Name"]+"(client,Action)")
-		except:
-			None
+		except Exception as e:
+			print(e)
 
 		now = datetime.datetime.now().strftime('%M')
 

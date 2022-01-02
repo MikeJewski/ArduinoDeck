@@ -3,10 +3,8 @@ import win32api
 import serial
 import datetime
 import time
-from urllib import urlopen
 import pyautogui
 import json
-from Twitch import *
 
 
 

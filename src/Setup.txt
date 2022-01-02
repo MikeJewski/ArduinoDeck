@@ -1,0 +1,6 @@
+CurrentLayout = "Blank.json"
+TwitchChatKey = ""
+ChannelName = ""
+obspswd = ""
+port = ""
+command = "C:/Program Files (x86)/Arduino/arduino"
